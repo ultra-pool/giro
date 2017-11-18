@@ -1,0 +1,26 @@
+# /etc/conf.d/girod: config file for /etc/init.d/girod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/giro/giro.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/girod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/girod.pid"
+
+# Where to write girod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/girod"
+
+# User and group to own girod process
+#BITCOIND_USER="giro"
+#BITCOIND_GROUP="giro"
+
+# Path to girod executable
+#BITCOIND_BIN="/usr/bin/girod"
+
+# Nice value to run girod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

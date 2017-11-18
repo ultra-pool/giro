@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/giro_bg.qm</file>
+        <file alias="ca">locale/giro_ca.qm</file>
+        <file alias="cs">locale/giro_cs.qm</file>
+        <file alias="da">locale/giro_da.qm</file>
+        <file alias="de">locale/giro_de.qm</file>
+        <file alias="en">locale/giro_en.qm</file>
+        <file alias="en_US">locale/giro_en_US.qm</file>
+        <file alias="es">locale/giro_es.qm</file>
+        <file alias="fi">locale/giro_fi.qm</file>
+        <file alias="fr_FR">locale/giro_fr_FR.qm</file>
+        <file alias="it">locale/giro_it.qm</file>
+        <file alias="ja">locale/giro_ja.qm</file>
+        <file alias="ko_KR">locale/giro_ko_KR.qm</file>
+        <file alias="nl">locale/giro_nl.qm</file>
+        <file alias="pl">locale/giro_pl.qm</file>
+        <file alias="pt">locale/giro_pt.qm</file>
+        <file alias="pt_BR">locale/giro_pt_BR.qm</file>
+        <file alias="ro_RO">locale/giro_ro_RO.qm</file>
+        <file alias="ru">locale/giro_ru.qm</file>
+        <file alias="sk">locale/giro_sk.qm</file>
+        <file alias="sv">locale/giro_sv.qm</file>
+        <file alias="uk">locale/giro_uk.qm</file>
+        <file alias="zh_CN">locale/giro_zh_CN.qm</file>
+        <file alias="zh_TW">locale/giro_zh_TW.qm</file>
+    </qresource>
+</RCC>

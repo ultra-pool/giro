@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=giro
+Comment=giro P2P Cryptocurrency
+Comment[fr]=giro, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=giro, eşten eşe kriptografik sanal para birimi
+Exec=giro-qt %u
+Terminal=false
+Type=Application
+Icon=giro128
+MimeType=x-scheme-handler/giro;
+Categories=Office;Finance;
