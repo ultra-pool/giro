@@ -12,7 +12,7 @@ giro is a cutting edge cryptocurrency, with many features not available in most 
   technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 25,000 GIRO
 
-More information at [giro.org](http://www.giro.org)
+More information at [girocoin.info](http://www.girocoin.info)
 
 ### Coin Specs
 <table>
