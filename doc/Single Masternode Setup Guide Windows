@@ -7,7 +7,7 @@ MASTERNODE GUIDE FOR WINDOWS
 5.In the Console window enter getaccountaddress 0 and copy the result. This is your MASTERNODE DEPOSIT ADDRESS, where you will deposit the coins to create a masternode. Pay 25000 giro exactly into this address. No more, no less.
 -·Wait for 15 confirmations of the transaction.
 6.In the Console Debug window enter masternode genkey and copy the result. This is your MASTERNODE PRIVKEY.
-7.Open Configuration File in Notepad. This config file is located at C:/users/***Your windows username***/appdata(hidden)/roaming/giro  Then paste in the following.
+7.Open Configuration File in Notepad. This config file is located at C:/users/***Your windows username***/appdata(hidden)/roaming/giro.conf  Then paste in the following.
 
 rpcuser=ANYTHINGHERE
 rpcpassword=ANYTHINGHERE
@@ -19,10 +19,16 @@ masternodeaddr=YourIP:51001
 masternodeprivkey=PRIVATEKEYREPLACETHIS
 
 
-8.Now save and close the config file.
-9.Close the wallet by going to File -> Exit.
+8.Now save and close the config file. 
+9. Open Masternode.conf. This config file is located at C:/users/***Your windows username***/appdata(hidden)/roaming/masternode.conf  Then paste in the following.
+
+mn1 YOURIP:43101 PRIVATEKEYREPLACETHIS INSERTYOURTXID 0
+
+10. if you dont know where to find your Transaction ID (TXID), just open your wallet, go to transactions and double click to the 25000 giro transaction, the you will see the TXID. 
+11. save and close masternode.conf
+12. Now Close the wallet by going to File -> Exit.
 Open the giro Wallet again by running giro-qt.exe. This is how you will always start the wallet going forward.
-10. Wait for 15 confirmations of the transaction of 25000 coins.
-Go to Tools -> Debug Console. Enter masternode start. You will see the response “Masternode started successfully”. Congratulations, your masternode is now running.
+13. Wait for 15 confirmations of the transaction of 25000 coins.
+Go to Masternodes Tab and start your Masternode by click in Start all or Start alias . You will see the response “Masternode started successfully”. Congratulations, your masternode is now running.
 Now click the Masternodes tab that is now visible. You should see your new masternode appear in the list with the status ENABLED.
 All masternodes need to be active for a certain amount of blocks before they are recognized by the network and eligible for rewards.
