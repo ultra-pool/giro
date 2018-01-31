@@ -1,4 +1,4 @@
-<a href="http://uploads.im/gSiuh.png"><img src="http://sn.uploads.im/t/gSiuh.png" border="0" /></a>
+<a href="http://es.tinypic.com?ref=16aehs3" target="_blank"><img src="http://i63.tinypic.com/16aehs3.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 GIRO Core integration/staging repository
 =====================================
